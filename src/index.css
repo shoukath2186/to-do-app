@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(41, 35, 35);
+}
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4em;
+  color: white;
+}
+button{
+  font-size:1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5em;
+}
+p{
+  color: red;
+}
+.add-button{
+  background-color: rgb(29, 159, 29);
+  margin-left: 10px;
+}
+.add-button:hover{
+  background-color: rgb(10, 129, 10);
+}
+
+.move-button{
+  background-color: rgb(66, 74, 188);
+}
+.move-button:hover{
+  background-color: rgb(14, 16, 131);
+}
+.delete-button{
+  background-color: rgb(188, 66, 66);
+}
+.delete-button:hover{
+  background-color: rgb(131, 14, 14);
+}
+.edit-button{
+  background-color: rgb(66, 162, 188);
+}
+.edit-button:hover{
+  background-color: rgb(26, 125, 152);
+}
+input[type='text']{
+  font-size: 1.6rem;
+  padding: 10px;
+  border:2px solid rgb(169, 158, 158);
+  border-radius: 5px;
+  color:rgb(3, 3, 3)
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color:rgb(202, 127, 127);
+  margin-bottom: 10px;
+  border: 3px solid rgb(207, 159, 159);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+.delete-button, .move-button, .edit-button{
+  padding: 8px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+.head{
+  margin-bottom: 40px;
+}
+input[type='checkbox']{
+  width: 25px;
+  height: 25px;
+  color: black;
+}
